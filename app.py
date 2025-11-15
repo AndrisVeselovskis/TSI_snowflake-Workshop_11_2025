@@ -3,6 +3,9 @@ import pandas as pd
 import snowflake.connector
 import altair as alt
 
+st.write("Available secrets keys:", st.secrets.keys())
+
+
 st.title("🎓 Student Data Visualization")
 st.write("Interactive charts from Snowflake table `student_data`")
 
